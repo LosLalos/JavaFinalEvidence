@@ -12,10 +12,6 @@ public class Patient {
         return id;
     }
 
-    public String getFullName() {
-        return fullName;
-    }
-
     public String returnCSV() {
         return id + "," + fullName + ",";
     }

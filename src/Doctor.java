@@ -13,14 +13,6 @@ public class Doctor {
         return id;
     }
 
-    public String getFullName() {
-        return fullName;
-    }
-
-    public String getSpecialty() {
-        return specialty;
-    }
-
     public String returnCSV() {
         return id + "," + fullName + "," + specialty + ",";
     }
